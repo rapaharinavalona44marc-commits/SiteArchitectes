@@ -1,0 +1,139 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f6f8;
+margin: 0;
+padding: 40px;
+}
+
+.container {
+max-width: 1100px;
+margin: 0 auto;
+background-color: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+TITRE DU SITE
+========================= */
+
+.titre-site {
+display: flex;
+align-items: center;
+gap: 15px;
+margin-bottom: 25px;
+}
+
+.drapeau {
+font-size: 42px;
+line-height: 1;
+}
+
+.titre-site h1 {
+color: #1f4e79;
+margin: 0;
+}
+
+.titre-site p {
+color: #555;
+margin-top: 8px;
+margin-bottom: 0;
+}
+
+/* =========================
+RECHERCHE
+========================= */
+
+.search-box {
+margin-top: 25px;
+margin-bottom: 35px;
+}
+
+input {
+padding: 12px;
+margin: 5px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 14px;
+}
+
+button {
+padding: 12px 20px;
+margin: 5px;
+background-color: #1f4e79;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-size: 14px;
+}
+
+button:hover {
+background-color: #163a5c;
+}
+
+button:disabled {
+background-color: #aaa;
+cursor: not-allowed;
+}
+
+/* =========================
+RESULTATS
+========================= */
+
+.results {
+margin-top: 30px;
+}
+
+.results h2 {
+color: #333;
+margin-bottom: 15px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th {
+background-color: #1f4e79;
+color: white;
+text-align: left;
+padding: 12px;
+}
+
+td {
+padding: 12px;
+border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+background-color: #f5f7fa;
+}
+
+td a {
+color: #1f4e79;
+text-decoration: none;
+font-weight: bold;
+}
+
+td a:hover {
+text-decoration: underline;
+}
+
+/* =========================
+PAGINATION
+========================= */
+
+#pagination {
+margin-top: 20px;
+text-align: center;
+padding-bottom: 20px;
+}
+
+#informationsResultats {
+margin-top: 15px;
+margin-bottom: 10px;
+font-weight: bold;
+}

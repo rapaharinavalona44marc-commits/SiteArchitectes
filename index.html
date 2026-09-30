@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Marc RAPAHARY - Architectes Belgique</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Marc RAPAHARY - Architectes Belgique</h1>
+
+    <p>
+        Recherche d'architectes et d'agences en Belgique.
+    </p>
+
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="rechercheNom"
+            placeholder="Nom de l'agence"
+        >
+
+        <input
+            type="text"
+            id="rechercheCodePostal"
+            placeholder="Code postal"
+        >
+
+        <button id="boutonRecherche">
+            Rechercher
+        </button>
+
+    </div>
+
+
+    <div class="results">
+
+        <h2>Résultats</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Nom / Agence</th>
+                    <th>Code postal</th>
+                    <th>Type</th>
+                    <th>Personnes</th>
+                    <th>Fiche</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="resultatsArchitectes">
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+
+<script src="architectes.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
